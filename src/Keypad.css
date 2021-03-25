@@ -1,0 +1,62 @@
+.screen
+ {
+   position: relative;
+   height: 20vh;
+   background-color :teal;
+   color:white;
+  
+   
+ }
+ .screen > p{
+   position:absolute;
+   right:0;
+   bottom:0;
+  
+
+ }
+ .screen_op{
+  position:absolute;
+   left:10px;
+  bottom:0;
+  
+  font-weight: bolder;
+ }
+ .screen_result{
+  position:absolute;
+  left:10px;
+  top:0;
+  
+  font-weight: bolder;
+ }
+ .main{
+   height:60vh;
+   
+ }
+ .row1 .row2 .row3 .row4{
+   height:25%;
+ }
+ .row1 >button {
+   width: 25%;
+   height: 25%;
+ }
+ .row2 >button {
+  width: 25%;
+}
+.row3 >button {
+  width: 25%;
+}
+.row4 >button {
+  width: 25%;
+}
+button {
+   background-color:  whitesmoke;
+   outline-width: 0px;
+ padding: 5px;
+}
+ button:hover{
+  background-color:darkgreen; 
+  font: bolder;
+}
+.multiply{
+  transform: rotateY(0deg) rotate(45deg); 
+}
